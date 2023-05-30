@@ -14,4 +14,8 @@ class Utility {
     init(name: String) {
         self.name = name
     }
+    
+    func printInfo(){
+        print("Name: \(name)")
+    }
 }
